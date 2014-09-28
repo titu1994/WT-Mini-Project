@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/generalCSS.css">
+	<link rel="stylesheet" type="text/css" href="css/loginCSS.css">
+	<script src="scripts/generalScripts.js"></script>
+	<script src="scripts/loginScripts.js"></script>
+
+</head>
+<body>
+	<div class="link_button" onclick="openButton()"></div>
+	<div class="translucent_box"></div>
+	<div class="lines"></div>
+	
+	<ul class="index">
+		<li><a href="start.html">Start</a></li>
+		<li><a href="login.html">Log In</a></li>
+	</ul>
+
+	<div class="centerBox">
+		<form action="start.html" method="post" name="loginForm" onsubmit="return loginValidate()">
+			<div class="LoginForm">
+				<p>Username : <input type="text" name="Username"><br>
+					Password :   &nbsp<input type"password" name="PassWord">
+				</p>
+				<input type="submit" value="Login" class="Login_Buttons" >
+			</div>
+		</form>
+		<button class="Login_Buttons_Register" onclick="goToRegisterPage()">Register</button>
+	</div>
+
+	</body>
+	</html>

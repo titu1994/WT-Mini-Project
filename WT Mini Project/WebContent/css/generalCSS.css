@@ -1,0 +1,80 @@
+body {
+	background-image: url("images/Background.png");
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+div.lines {
+	background-image: url("images/Line-Menu.png");
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+ul.index {
+	position: absolute;
+	z-index: 2;
+	left: 1%;
+	top : 22%;
+	font-size: 26px;
+}
+
+div.translucent_box {
+	border-width: 5%;
+	border-color: #CCCCCC;
+	border-style: solid;
+	background-color: #CCCCCC;
+	opacity: 0.8;
+	position: absolute;
+	left: 1%;
+	top: 25%;
+	width: 16%;
+	height: 75%;
+	z-index: 1;
+}
+
+div.centerBox {
+	position: absolute;
+	left : 20%;
+	top : 25%;
+	width : 78%;
+	height : 75%;
+	background-color: #CCCC99;
+	z-index: 1;
+}
+
+.link_button {
+	background-image: url("images/link_button.png");
+	position: absolute;
+	width: 20%;
+	height: 20%;
+	z-index: 2;
+}
+
+/* unvisited link */
+a:link {
+    color: #003366;
+}
+
+/* visited link */
+a:visited {
+    color: #003399;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
