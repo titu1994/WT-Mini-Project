@@ -16,4 +16,15 @@ $(document).ready(function(){
 			$(".lines_vert").animate({left:'21.5%'});
 		}
 	});
+
+	function expandContent(element) {
+	if(sw == 0) {
+		element.style.width = '100%';
+		element.style.left = '0%';
+	}
+	else {
+		element.style.width = '78%';
+		element.style.left = '20%';
+	}
+}
 });	
