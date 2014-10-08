@@ -1,46 +1,49 @@
+.Register_Position {
+	position : absolute;
+	left : 40%;
+	top : 60%;
+	
+}
+
 .Login_Buttons {
-  border-width: 4.444px;
-  border-color: #003366;
-  border-style: solid;
-  position: absolute;
-  left: 0%;
-  top-margin: 55%;
-  width: 50%;
-  height: 40%;
-  z-index: 2;
+	border-width: 4.444px;
+	border-color: #003366;
+	border-style: solid;
+	position: absolute;
+	left: 35%;
+	top-margin: 55%;
+	width: 50%;
+	height: 40%;
+	z-index: 2;
 }
 
 .Login_Buttons_Register {
-  border-width: 4.444px;
-  border-color: #003366;
-  border-style: solid;
-  position: absolute;
-  left: 55%;
-  top: 46%;
-  width: 20%;
-  height: 11%;
-  z-index: 2;
-  
-  font-family: sans-serif;
-  font-size: 24px;
+	border-width: 4.444px;
+	border-color: #003366;
+	border-style: solid;
+	position: relative;
+	left: 5%;
+	top: 46%;
+	width: 40%;
+	height: 11%;
+	z-index: 2;
+	font-family: sans-serif;
+	font-size: 24px;
 }
 
 .LoginForm {
 	font-family: sans-serif;
-	color : #003366;
-  font-size: 24px;
+	color: #003366;
+	font-size: 24px;
 }
 
 input {
-  font-size: 24px;
+	font-size: 24px;
 }
 
 form {
 	z-index: 2;
-	position : absolute;
-	left : 30%;
-	top : 20%;
+	position: absolute;
+	left: 30%;
+	top: 30%;
 }
-
-
-
