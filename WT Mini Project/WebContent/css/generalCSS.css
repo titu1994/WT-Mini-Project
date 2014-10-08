@@ -1,5 +1,4 @@
 body {
-	background-image: url("images/Background.png");
 	position: absolute;
 	left: 0px;
 	top: 0px;
@@ -8,64 +7,76 @@ body {
 	z-index: 1;
 }
 
-div.lines {
-	background-image: url("images/Line-Menu.png");
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
+div.lines_vert {
+  border-width: 3%;
+  border-color: rgb( 0, 51, 102 );
+  border-style: solid;
+  background-color: rgb( 0, 51, 102 );
+  position: absolute;
+  left: 21.5%;
+  top: 25%;
+  width: 0;
+  height: 75%;
+  z-index: 4;
 }
 
 ul.index {
 	position: absolute;
 	z-index: 2;
 	left: 1%;
-	top : 22%;
-	font-size: 26px;
+	top:25%;
+	font-size: 20px;
 }
 
 div.translucent_box {
 	border-width: 5%;
-	border-color: #CCCCCC;
+	border-color: rgb( 63, 116, 186 );
 	border-style: solid;
-	background-color: #CCCCCC;
-	opacity: 0.8;
+	background-color: rgb( 63, 116, 186 );
+	opacity: 0.349;
 	position: absolute;
 	left: 1%;
 	top: 25%;
-	width: 16%;
+	width: 20%;
 	height: 75%;
 	z-index: 1;
 }
 
-div.centerBox {
-	position: absolute;
-	left : 20%;
-	top : 25%;
-	width : 78%;
-	height : 75%;
-	background-color: #CCCC99;
-	z-index: 1;
+div.lines_horiz{
+  border-width: 3%;
+  border-color: rgb( 0, 51, 102 );
+  border-style: solid;
+  background-color: rgb( 0, 51, 102 );
+  position: absolute;
+  left: 1%;
+  top: 25%;
+  width: 99%;
+  height: 0;
+  z-index: 2;
 }
 
+
 .link_button {
-	background-image: url("images/link_button.png");
-	position: absolute;
-	width: 20%;
-	height: 20%;
-	z-index: 2;
+  border-width: 6.25px;
+  border-color: rgb( 0, 51, 102 );
+  border-style: solid;
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: 1%;
+  top: 1%;
+  width: 10%;
+  height: 10%;
+  z-index: 2;
 }
 
 /* unvisited link */
 a:link {
-    color: #003366;
+    color: #FF0000;
 }
 
 /* visited link */
 a:visited {
-    color: #003399;
+    color: #00FF00;
 }
 
 /* mouse over link */
@@ -77,4 +88,3 @@ a:hover {
 a:active {
     color: #0000FF;
 }
-
