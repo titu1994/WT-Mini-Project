@@ -59,8 +59,8 @@ div.lines_horiz{
 .link_button {
   background-image : url("images/link_button.png");
   position: absolute;
-  left: 1%;
-  top: 1%;
+  left: 0%;
+  top: 0%;
   width: 20%;
   height: 20%;
   z-index: 2;
