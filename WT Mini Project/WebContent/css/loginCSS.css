@@ -37,6 +37,14 @@
 	font-size: 24px;
 }
 
+p.RegReqPara{
+	font-size: 16px;
+}
+
+p.RegPerPara{
+	font-size: 16px;
+}
+
 input {
 	font-size: 24px;
 }

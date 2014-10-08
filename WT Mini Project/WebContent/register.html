@@ -22,14 +22,29 @@
 	<div class="centerBox">
 		<form action="login.html" method="post" name="regForm">
 			<div class="LoginForm">
-				<p><br>	
-					Username : <input type="text" name="Username"><br>
-					Password :   &nbsp<input type"password" name="PassWord">
-				</p>
-				<input type="submit" value="Login" class="Login_Buttons" >
+				<fieldset>
+					<legend>Required Info</legend>
+					<p class="RegReqPara"><br>	
+						Username : <input type="text" name="Username"><br>
+						Password : &nbsp<input type"password" name="PassWord"><br>
+						Confirm Password : &nbsp<input type"password" name="PassWord"><br>
+						Email Address:<input type="email" name="email"><br>
+					</p>
+				</fieldset>
+				<fieldset>
+					<legend>Personal Info</legend>
+					<p class="RegPerPara"><br>	
+						Avatar Photo: <input type="file" name="photo"><br>
+						First Name : <input type="text" name="fname"><br>
+						Last Name: &nbsp<input type"text" name="lname"><br>
+						Address : &nbsp<input type"password" name="address"><br>
+						Telephone Number:<input type="tel" name="tele"><br>
+						Birth Day:<input type="date" name="bdate">
+					</p>
+				</fieldset><br>
+				<input type="submit" value="Register" class="Login_Buttons_Register" >
 			</div>
 		</form>
-		<button class="Login_Buttons_Register" onclick="goToRegisterPage()">Register</button>
 	</div>
 
 </body>
