@@ -13,3 +13,55 @@ div.header1 {
 	text-shadow: highlight;
 	text-transform: capitalize;
 }
+
+div.trailer1 {
+	background-color: #003366;
+	height: 30%;
+	width: 40%;
+	position: absolute;
+	left: 25%;
+	top: 85%;
+	
+	text-align: center;
+	text-shadow: highlight;
+	text-transform: capitalize;
+}
+
+div.trailer2 {
+	background-color: #003366;
+	height: 30%;
+	width: 28%;
+	position: absolute;
+	left: 67%;
+	top: 85%;
+	
+	text-align: center;
+	text-shadow: highlight;
+	text-transform: capitalize;
+}
+
+div.trailer3 {
+	background-color: #003366;
+	height: 30%;
+	width: 40%;
+	position: absolute;
+	left: 55%;
+	top: 120%;
+	
+	text-align: center;
+	text-shadow: highlight;
+	text-transform: capitalize;
+}
+
+div.trailer4 {
+	background-color: #003366;
+	height: 30%;
+	width: 28%;
+	position: absolute;
+	left: 25%;
+	top: 120%;
+	
+	text-align: center;
+	text-shadow: highlight;
+	text-transform: capitalize;
+}
