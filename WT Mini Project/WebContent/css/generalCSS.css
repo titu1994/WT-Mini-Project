@@ -1,11 +1,18 @@
 body {
-	background-image : url("images/Background.png");
+  background-image: url("images/Background_1.jpg");
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	width: 100%;
 	height: 100%;
 	z-index: 1;
+}
+
+div.bground{
+  opacity: 70%;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
 }
 
 div.lines_vert {
@@ -27,8 +34,19 @@ ul.index {
 	left: 1%;
 	top:25%;
 	font-size: 30px;
-	
-	
+}
+
+div.login{
+  top:1%;
+  left:20%;
+}
+
+div.searchbox{
+  position: absolute;
+  height: 10%;
+  width: 60%;
+  top: 20%;
+  left: 30%;
 }
 
 div.translucent_box {
