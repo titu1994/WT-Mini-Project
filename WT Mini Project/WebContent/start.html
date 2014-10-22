@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Electronics Store</title>
-<link rel="stylesheet" type="text/css" href="css/generalCSS.css">
-<link rel="stylesheet" type="text/css" href="css/startcss.css">
-<script src="scripts/jquery-1.11.1.min.js"></script>
-<script src="scripts/generalScripts.js"></script>
-<script src="scripts/startScripts.js"></script>
+	<title>Electronics Store</title>
+	<link rel="stylesheet" type="text/css" href="css/generalCSS.css">
+	<link rel="stylesheet" type="text/css" href="css/startcss.css">
+	<script src="scripts/jquery-1.11.1.min.js"></script>
+	<script src="scripts/generalScripts.js"></script>
+	<script src="scripts/startScripts.js"></script>
 </head>
 <body>
+	<div class="logo">
+	<img src="css/images/SRS.png" height="800%" width="400%">
+	</div>
 	<div class="link_button"></div>
 	<div class="searchbox">
-			<input type="search" name="sbox" size="90" placeholder="Search for item">
+		<input type="search" name="sbox" size="90" placeholder="Search for item">
 	</div>
 	<div class="fadebox">
 		<div class="translucent_box"></div>
@@ -25,33 +28,34 @@
 	<div class="lines_horiz"></div>
 	
 	<div class="header1">
-	<p align = "left" >Our Current Bestseller:
-	<p align="left">PLAYSTATION 4 <br>
-	only Rs. 39,999 /-</p>
-	<p>
-		<a><img src="css/images/ps4.jpg" height="70%" width="30%" hspace="40%"></a>
-		</p>
-	</div>
-	<div class="trailer1">
-		<p align="left">Xbox One <br>
-	Rs. 44,999 /-</p>
-	<p align="center">
-		<a><img src="css/images/xbox.png" height="60%" width="25%" hspace="40%"></a>
-		</p>
-	</div>
-	<div class="trailer2">
-		<p align="left">Wii U <br>
-	Rs. 34,999 /-</p>
-	<p align="center">
-		<a><img src="css/images/wiiu.jpg" height="60%" width="40%" hspace="40%"></a>
-		</p>
-	</div>
-	<div class="trailer3"></div>
-	<div class="trailer4"></div>
-	<div class="login">
-		Username: <input type="text" name="uname"><br><br>
-		Password: <input type="password" name="pword"><br>
-		Not a member? <a href="register.html">Register now!</a>
-	</div>
-</body>
-</html>
+		<p align = "left" >Our Current Bestseller:
+			<p align="left">PLAYSTATION 4 <br>
+				only Rs. 39,999 /-</p>
+				<p>
+					<a href="ps4.html"><img src="css/images/ps4.jpg" height="70%" width="30%" hspace="40%"></a>
+				</p>
+			</div>
+			<div class="trailer1">
+				<p align="left">Xbox One <br>
+					Rs. 44,999 /-</p>
+					<p align="center">
+						<a><img src="css/images/xbox.png" height="60%" width="25%" hspace="40%"></a>
+					</p>
+				</div>
+				<div class="trailer2">
+					<p align="left">Wii U <br>
+						Rs. 34,999 /-</p>
+						<p align="center">
+							<a><img src="css/images/wiiu.jpg" height="60%" width="40%" hspace="40%"></a>
+						</p>
+					</div>
+					<div class="login">
+						<form action="start.html" method="post" name="loginForm1" onsubmit="return loginValidate()">
+						Username: <input type="text" name="uname"><br><br>
+						Password: <input type="password" name="pword"><br>
+						<input type="submit" value="Submit">
+						Not a member? <a href="register.html">Register now!</a>
+						</form>
+					</div>
+				</body>
+				</html>

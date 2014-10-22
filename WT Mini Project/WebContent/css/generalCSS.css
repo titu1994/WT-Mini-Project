@@ -8,6 +8,14 @@ body {
 	z-index: 1;
 }
 
+div.logo{
+  position:absolute;
+  top:-25%;
+  left:15%;
+  height:10%;
+  width:20%;
+}
+
 div.bground{
   opacity: 70%;
   height: 100%;
@@ -24,7 +32,7 @@ div.lines_vert {
   left: 21.5%;
   top: 25%;
   width: 0;
-  height: 125%;
+  height: 260%;
   z-index: 4;
 }
 
@@ -37,8 +45,9 @@ ul.index {
 }
 
 div.login{
-  top:1%;
-  left:20%;
+  top:3%;
+  left:80%;
+  position: absolute;
 }
 
 div.searchbox{
@@ -59,7 +68,7 @@ div.translucent_box {
 	left: 1%;
 	top: 25%;
 	width: 20%;
-	height: 125%;
+	height: 260%;
 	z-index: 1;
 }
 

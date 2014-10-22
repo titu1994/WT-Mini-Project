@@ -1,0 +1,26 @@
+div.Details{
+	font size:1em;
+	top:25%;
+	position: absolute;
+	left:25%;
+	font-family: Arial;
+}
+p.intro{
+	font-size: 20px;
+	font-family: Arial;
+}
+div.buy {
+	border-width: 4.444px;
+	border-color: #003366;
+	border-style: solid;
+	background-color: #003366;
+	opacity:0.9;
+	position: absolute;
+	left: 25%;
+	top: 260%;
+	width: 20%;
+	height: 15%;
+	z-index: 2;
+	font-family: sans-serif;
+	font-size: 24px;
+}
